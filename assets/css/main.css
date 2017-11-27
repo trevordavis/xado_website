@@ -182,6 +182,12 @@
 			margin: 0 0 2rem 0;
 		}
 
+		h2.major-secondary {
+			border-bottom: solid 1px #ffffff;
+			padding-bottom: 0.5rem;
+			margin: 0 0 2rem 0;
+		}
+
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
@@ -1593,7 +1599,7 @@
 			opacity: 0;
 		}
 
-		body.is-loading #footer {
+		body.is-loading #footer, body.is-loading #footer-icons {
 			opacity: 0;
 		}
 
@@ -1601,11 +1607,17 @@
 /* Footer Icons */
 
 	#footer-icons {
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+		-moz-transition: -moz-transform 2.5s ease-in-out, -moz-filter 2.5s ease-in-out, opacity 2.5s ease-in-out;
+		-webkit-transition: -webkit-transform 2.5s ease-in-out, -webkit-filter 2.5s ease-in-out, opacity 2.5s ease-in-out;
+		-ms-transition: -ms-transform 2.5s ease-in-out, -ms-filter 2.5s ease-in-out, opacity 2.5s ease-in-out;
+		transition: transform 2.5s ease-in-out, filter 2.5s ease-in-out, opacity 2.5s ease-in-out;
 		position: absolute;
 		top: 1rem;
 		right: 1rem;
+	}
+
+/* Text in the alumni section */
+
+	#alumni h2, #alumni p {
+		text-align: center;
 	}

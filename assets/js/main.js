@@ -22,6 +22,7 @@
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
 			$footer = $('#footer'),
+			$footer_icons = $('#footer-icons'),
 			$main = $('#main'),
 			$main_articles = $main.children('article');
 
@@ -101,6 +102,7 @@
 								// Hide header, footer.
 									$header.hide();
 									$footer.hide();
+									$footer_icons.hide();
 
 								// Show main, article.
 									$main.show();
@@ -175,6 +177,7 @@
 									// Hide header, footer.
 										$header.hide();
 										$footer.hide();
+										$footer_icons.hide()
 
 									// Show main, article.
 										$main.show();
@@ -233,6 +236,7 @@
 
 								// Show footer, header.
 									$footer.show();
+									$footer_icons.show();
 									$header.show();
 
 								// Unmark as visible.
@@ -268,6 +272,7 @@
 
 							// Show footer, header.
 								$footer.show();
+								$footer_icons.show();
 								$header.show();
 
 							// Unmark as visible.
